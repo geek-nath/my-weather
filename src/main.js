@@ -22,6 +22,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fas);
 
+document.title = "My weather app"
+
 createApp(App)
 .component('fa', FontAwesomeIcon)
 .use(bootstrap)
